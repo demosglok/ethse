@@ -3,7 +3,6 @@ dist: trusty
 language: node_js
 node_js: 8
 install:
-  - "npm install"
-  - "npm run ganache-cli > /dev/null &"
+  - "npm install"  
 script:
-  - "npm run test"
+  - "ganache-cli -a 100 & npm run test"
