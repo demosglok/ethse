@@ -7,7 +7,7 @@
     "compile": "truffle compile",
     "truffle": "truffle",
     "testrpc": "ganache-cli",
-    "ganache-cli": "ganache-cli",
+    "ganache-cli": "ganache-cli"
   },
   "repository": {
     "type": "git",
