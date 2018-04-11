@@ -6,5 +6,4 @@ install:
   - "npm install"  
 script:
   - "npm run ganache-cli > /dev/null &"
-  - "sleep 1"
   - "npm run test"
